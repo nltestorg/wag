@@ -1,0 +1,5 @@
+test:
+  override:
+	- make install_deps
+	- make test
+	- make build
